@@ -20,11 +20,7 @@ The building of score predictor model wherein past performance data of the teams
 - Data frame operations: 	Pandas |To manipulate data
 
 ## Results:
-![Algorithm	Validation	Tuning	MAE	MSE	RMSE
-Linear Regression	Yes	No	13.07	314.8	17.74
-RF Regression	Yes	Yes	2.44	24.27	4.92
-XGBoost Regression	Yes	Yes	1.67	12.45	3.52]
-
+![![image](https://github.com/user-attachments/assets/f80491e3-192b-4c1f-922a-ebfffc29be0a)]
 
 
 
