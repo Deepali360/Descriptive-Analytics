@@ -7,7 +7,7 @@ The building of score predictor model wherein past performance data of the teams
 - Hyperparameter tuning:	sklearn.model_selection |	GridSearchCV | To find best parameters.
 - Algorithms:	sklearn.linear_model | sklearn.ensemble | xgboost	
 - LinearRegression | RandomForestRegressor | XGBRegressor	
-** Note:  These different algorithm used to train the data and further evaluated on the bases of MSE.
+- *Note:  These different algorithm used to train the data and further evaluated on the bases of MSE.*
 - Standard Scaler:	sklearn.preprocessing |	Standard Scaler	| To scale the dataset
 - Mathematical Operations: 	NumPy	| To find mean values 
 - Graphs :	matplotlib.pyplot	| To depict learning curve, error range graphs.
