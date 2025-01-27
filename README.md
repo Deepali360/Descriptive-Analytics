@@ -19,14 +19,27 @@ The building of score predictor model wherein past performance data of the teams
 - Graphs :	matplotlib.pyplot	| To depict learning curve, error range graphs.
 - Data frame operations: 	Pandas |To manipulate data
 
-## Results:
-![![image](https://github.com/user-attachments/assets/f80491e3-192b-4c1f-922a-ebfffc29be0a)]
+## Regression Model Evaluation
 
+In this project, I compared the performance of various regression models on a dataset. Below are the evaluation metrics for each model:
 
+| **Algorithm**           | **Validation** | **Tuning** | **MAE**  | **MSE**  | **RMSE** |
+|-------------------------|----------------|------------|----------|----------|----------|
+| **Linear Regression**    | Yes            | No         | 13.07    | 314.8    | 17.74    |
+| **RF Regression**        | Yes            | Yes        | 2.44     | 24.27    | 4.92     |
+| **XGBoost Regression**   | Yes            | Yes        | 1.67     | 12.45    | 3.52     |
+
+### Key Takeaways:
+
+- **XGBoost Regression** outperformed both Linear Regression and Random Forest, achieving the lowest MAE, MSE, and RMSE. This was expected given the dataset's non-linear patterns.
+- **Random Forest Regression** performed well but was not as accurate as XGBoost, likely due to XGBoost’s ability to capture more complex interactions.
+- **Linear Regression** was the baseline model and showed significantly higher error rates, suggesting that a simple linear model was insufficient for this problem.
+
+### Model Tuning:
+- Hyperparameter tuning was performed for both Random Forest and XGBoost using **Grid Search** to find the best configuration, leading to the improved results.
 
 ## Credits:
 - The code guidance for this project (https://github.com/campusx-official/cricket-score-predictor/tree/main)
-- 
 
 
 
