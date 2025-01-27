@@ -5,7 +5,7 @@ The building of score predictor model wherein past performance data of the teams
 - Extraction: extracted data from kaggle cricsheet in yaml format 
 - Transformation: feature extraction
 - Predcition: Regression models for best predictiom
-- 
+  
 ## Functions, Library and methods used:
 - Splitting the data:	sklearn .model_selection | train_test_split	| Splitting the data into training and test datasets
 - Evaluation:	sklearn.metrics |	MAE, MSE, RMSE | 	To find best algorithm.
@@ -20,10 +20,11 @@ The building of score predictor model wherein past performance data of the teams
 - Data frame operations: 	Pandas |To manipulate data
 
 ## Results:
-'''Algorithm	Validation	Tuning	MAE	MSE	RMSE
+![Algorithm	Validation	Tuning	MAE	MSE	RMSE
 Linear Regression	Yes	No	13.07	314.8	17.74
 RF Regression	Yes	Yes	2.44	24.27	4.92
-XGBoost Regression	Yes	Yes	1.67	12.45	3.52
+XGBoost Regression	Yes	Yes	1.67	12.45	3.52]
+
 
 
 
